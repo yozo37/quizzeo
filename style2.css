@@ -1,0 +1,91 @@
+
+body {
+	font-family: 'Fredoka One', 'cursive';
+	background:linear-gradient(#3D0066,#510087,#5C0099);
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	
+	
+}
+
+.container {
+	margin: 0 auto;
+	width: fit-content ;
+	block-size: fit-content ;
+	padding: 5%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: linear-gradient(#fab800,#FFD500,#FFEE32);
+	border-radius: 15px ;
+}
+
+h1 {
+	font-size: 80px;
+	color: #fab800;
+	margin-bottom: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#question {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+button {
+	font-family:'Fredoka One', cursive; ;
+	background-color: #5C0099;
+	border: white;
+	border-radius: 20%/50%;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+button:not(:last-child) {
+	margin-right: 20px; 
+}
+
+
+button:hover{
+	background-color: #3D0066;
+}
+button:active, button:focus {
+	transform: translateY(2px); 
+	
+	}
+
+#score {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.menu-btn {
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    z-index: 4;
+    font-size: 24px;
+    background: linear-gradient(#fab800,#FFD500,#FFEE32);
+    color: #03071E;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

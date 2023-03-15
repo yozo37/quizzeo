@@ -1,0 +1,34 @@
+.score-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 100px;
+    width: 200px;
+    background: linear-gradient(#fab800,#FFD500,#FFEE32);
+    
+  }
+  body{
+    background-color: #3D0066;
+    font-family: 'Fredoka One', cursive;
+    background: linear-gradient(#001D3D,#003566,#014382) fixed;
+  }
+  .menu-btn {
+
+  display: flex;
+  flex-direction: row-reverse;
+  top: 20px;
+  left: 30px;
+  z-index: 4;
+  font-size: 24px;
+  background: linear-gradient(#fab800,#FFD500,#FFEE32);
+  color: #03071E;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
